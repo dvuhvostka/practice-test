@@ -1,0 +1,130 @@
+  
+.home__hero {
+    color: #fff;
+    padding: 100px 0;
+    position: relative; 
+    margin-bottom: 100px 
+  }
+  @media screen and (max-width: 1300px) {
+    .home__hero{
+      padding: 0px;
+    }
+    
+  }
+  .home__hero-row {
+    align-items: center;
+  }
+  
+  .button{
+    background: #8F83F3 !important; 
+    border-radius: 11px; 
+    width: 185px; 
+    height: 50px
+  }
+
+  .row {
+    display: flex;
+    margin-right: -15px;
+    margin-bottom: -15px;
+    margin-left: -15px;
+    flex-wrap: wrap;
+    align-content: stretch;
+    flex-direction: row;
+    justify-content: space-between
+  }
+  
+  .col {
+    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 1;
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  
+  .home__hero_text {
+    max-width: 540px;
+    padding-top: 0;
+    padding-bottom: 60px;
+  }
+  
+  .top-line {
+    color: #f00946;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+  
+  .heading {
+    width: 480px;
+    margin-bottom: 24px;
+    font-weight: bold;
+font-size: 50px;
+line-height: 60px;
+    color: #f7f8fa;
+  }
+  
+  .dark {
+    color: #1c2237;
+  }
+  
+  .darkBg {
+    background-color: #1c2237;
+  }
+  
+  .home__hero_subtitle {
+    max-width: 470px;
+    margin-bottom: 35px;
+    font-weight: normal;
+font-size: 17px;
+line-height: 133.2%;
+  }
+  
+  .home__hero_img {
+    max-width: 300px;
+  }
+
+
+  .home__hero_img_img{
+    width: 680px;
+    position: absolute;
+    top: 0px;
+  }
+  
+  @media screen and (max-width: 991px) {
+    .container {
+      padding-right: 30px;
+      padding-left: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .home__hero-text-wrapper {
+      padding-bottom: 65px;
+    }
+  
+    .col {
+      max-width: 100%;
+      flex-basis: 100%;
+    }
+  }
+
+.listBlock{
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .listItem{
+    display: flex; 
+    max-width: 500px; 
+    align-items: center;
+    .listNumber{
+      color: #8F83F3 !important; 
+      font-weight: 800;
+      margin-right: 40px
+    }
+  }
+}

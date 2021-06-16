@@ -1,0 +1,131 @@
+  
+.home__hero {
+    color: #fff;
+    padding: 100px 0;
+    position: relative;
+    margin-bottom: 100px
+  }
+
+  @media screen and (max-width: 1300px) {
+    .home__hero{
+      padding: 0px;
+    }
+    
+  }
+  
+  .home__hero-row {
+    align-items: center;
+  }
+  
+  .row {
+    display: flex;
+    margin-right: -15px;
+    margin-bottom: -15px;
+    margin-left: -15px;
+    flex-wrap: wrap;
+    align-content: stretch;
+  }
+  
+  .col {
+    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 1;
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  
+  .home__hero_text {
+    max-width: 540px;
+    padding-top: 0;
+    padding-bottom: 60px;
+  }
+  
+  .top-line {
+    color: #f00946;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+  
+  .heading {
+    margin-bottom: 24px;
+    font-weight: bold;
+font-size: 50px;
+line-height: 60px;
+    color: #f7f8fa;
+  }
+  
+  .dark {
+    color: #1c2237;
+  }
+  
+  .darkBg {
+    background-color: #1c2237;
+  }
+  
+  .home__hero_subtitle {
+    max-width: 470px;
+    margin-bottom: 35px;
+    font-weight: normal;
+font-size: 17px;
+line-height: 133.2%;
+  }
+  
+  .home__hero_img {
+    max-width: 300px;
+  }
+  
+  /* .home__hero_img {
+    max-width: 95%;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 10px;
+    padding-right: 0;
+  } */
+
+  .home__hero_img_img{
+    max-width: 680px;
+    margin-top: -60px;
+    margin-left: -20px;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .container {
+      padding-right: 30px;
+      padding-left: 30px;
+    }
+    .home__hero_img_img{
+      display: none;
+    }
+  }
+  @media screen and (max-width: 550px) {
+    .home__hero_img_img{
+      display: none;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .home__hero_img_img{
+      display: none;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .home__hero-text-wrapper {
+      padding-bottom: 65px;
+    }
+  
+    .col {
+      max-width: 100%;
+      flex-basis: 100%;
+    }
+  }
+
+  @media screen and (max-width: 1280px) {
+    .home__hero_img_img{
+      display: none;
+    }
+  
+  }

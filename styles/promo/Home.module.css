@@ -1,0 +1,44 @@
+/* .container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+.wrapper{
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+@media screen and (max-width: 500px) {
+  .wrapper{
+    max-width: 95%;
+  }
+}
+
+/* .graphBg{
+    background-image: url('/Graph.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    width: 100%;  
+} */
+
+.formBlock{
+  background: #8F83F3;
+  width: 100%; 
+  overflow-y: hidden
+}
+
+@media screen and (min-width: 1670px) {
+  .graphBg{
+    background-size: cover;
+  }    
+}
+
+@media screen and (max-width: 1020px) {
+  .formBlock{
+    margin-top: -180px;
+    background: transparent;
+  }    
+}

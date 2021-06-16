@@ -1,0 +1,18 @@
+.containerBlock{
+    display: flex; 
+    width: 100%;
+    justify-content: space-between; 
+    align-items: center; 
+    margin-bottom: 120px;
+    flex-wrap: wrap;
+    .leftBlock{
+        width: 550px; 
+        margin-top: -50px;
+        .visaBlock{
+            width: 130px; 
+            display: flex; 
+            justify-content: space-between; 
+            margin-top: 30px
+        }
+    }
+}
