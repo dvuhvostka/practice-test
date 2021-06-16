@@ -55,7 +55,7 @@ const FormBlock = () => {
                         "Access-Control-Allow-Methods": "GET,POST,PUT,DELETE,OPTIONS",
                         "Access-Control-Allow-Headers": "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
                     }
-                    axios.post(`https://indaswap.com/api/newclient`, { user }, { headers })
+                    axios.post(`/api/newclient`, { user }, { headers })
                         .then(res => {
                             console.log(res);
                             console.log(res.data);
